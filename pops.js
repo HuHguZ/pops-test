@@ -1,7 +1,6 @@
 (() => {
     alert("hello");
     console.log("hello");
-    ("use strict");
     alert("use strict");
     var e = {
         d: (t, s) => {
