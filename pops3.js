@@ -18,7 +18,10 @@
       },
       t = {};
     e.r(t);
-    alert('work');
+    (async () => {
+      await 23;
+      alert('work');
+    })();
     var s = {};
     e.r(s), e.d(s, { subscribe: () => d, unsubscribe: () => u });
     const n = (e) => {
@@ -114,6 +117,7 @@
       }
     };
     let l = [];
+    alert('work2');
     const d = (e) => {
         l.push(e), l.length > 0 && !a && ((a = !0), c());
       },
@@ -212,6 +216,7 @@
       .catch(() => {
         $ = 2;
       });
+      alert('work3');
     const D = (e) => {
         L = e;
       },
