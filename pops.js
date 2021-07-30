@@ -1,6 +1,6 @@
 (() => {
     alert("hello");
-    alert("use strict");
+    
     var e = {
         d: (t, s) => {
           for (var n in s)
@@ -18,6 +18,7 @@
       },
       t = {};
     e.r(t);
+    alert('work');
     var s = {};
     e.r(s), e.d(s, { subscribe: () => d, unsubscribe: () => u });
     const n = (e) => {
