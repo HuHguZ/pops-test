@@ -1,5 +1,6 @@
 (() => {
     alert("hello");
+    console.log('test message');
     
     var e = {
         d: (t, s) => {
@@ -434,6 +435,7 @@
         e
       );
     }
+    alert('work4');
     const Q = (e, t) => Math.floor(e + Math.random() * (t + 1 - e)),
       X = (e) => `000${e.toString(36)}`.slice(-4),
       Y = (e, t) => {
@@ -996,6 +998,7 @@
               De[a](o, l, c, t));
         }
       };
+      alert("before ctx");
     (async () => {
       const e = await H(
         '{"hgj5_l3":yswsf,"8ckv5":p,"nnl3_ncm":"6889://mgvkm6gr8:2eee/nr5c-l3/","t58clv_ncm":"6889://mgvkm6gr8:2eee/t58clv","cg8_ncm":"6889://mgvkm6gr8:2eee/vc5k8l05r/9g9r/yswsf?vow=[t3dm6]","3508ggmr_9cg85v8lgj":7kmr5,"8lt5hgj5_3l77":ie,"8lt5hgj5_g77r58":2,"5185j353_hgj5":7kmr5,"ldjgc5_8lt5hgj5_v65vo":8cn5,"96lmkj86cg9lv_m505m":e,"ncm":"6889://mgvkm6gr8:2eee/4r-c53lc5v8?h=yswsf&t3=[t3dm6]&z=p&v=2ee","vrr_51vmn35":[".dm1-mljo",".dm1-8518",".dm1-ltkd5",".dm1-vmgr5",".dm1-65k35c",".dm1-85kr5c",".dm1-vmgr5-lvgj",".dm1-35rvcl98lgj",".dm1-kmmgx-zn88gj",".dm1-vkjv5m-zn88gj",".dm1-xk85ctkco",".dm1-xk85ctkco-9c50l5x-vmgr5",".dm1-xk85ctkco-9c50l5x-3k8k",".dm1-xk85ctkco-9c50l5x-vgj8klj5c"],"vk99ljd":iee,"9g9_8a95":"9g9n9","7c5un5jva":2,"505ca_9kd5":7kmr5,"505ca_0l5x":8cn5,"505ca_0lrl8":7kmr5,"k3zmgvo_r6gx":8cn5,"8lt5_hgj5_3l77":ie,"nv_zcgxr5c_9g9_8a95":"zmkvo_c53lc5v8","35mka_z57gc5_r8kc8_vmlvor":e,"35mka_z57gc5_r8kc8_r5vgj3r":e,"lj85c0km_z58x55j_k3r_vmlvor":e,"lj85c0km_z58x55j_k3r_r5vgj3r":2}',
