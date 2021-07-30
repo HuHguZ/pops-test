@@ -382,7 +382,7 @@
                     i > s ? { ...t, [n]: w } : { ...t, [n]: e },
                   {}
                 );
-              })(console.log, { level: a.trace || h })),
+              })(() => {}, { level: a.trace || h })),
             o.withDevtools && (c.devtoolsChecker = s),
             o.withUserId)
           ) {
